@@ -13,7 +13,7 @@ def factorize(value):
     while value % i:
         i += 1
 
-    print("{:.0f}={:.0f} * {:.0f}\\n".format(value, value / i, i))
+    print("{:.0f}={:.0f} * {:.0f}".format(value, value / i, i))
 
 if len(argv) != 2:
     exit()
